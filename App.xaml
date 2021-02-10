@@ -1,0 +1,10 @@
+﻿<Application x:Class="FontTestProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FontTestProject"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- FONTS -->
+        <FontFamily x:Key="TestFontRegular">pack://application:,,,/Resources/#Xee Rough Font Regular</FontFamily>
+    </Application.Resources>
+</Application>
